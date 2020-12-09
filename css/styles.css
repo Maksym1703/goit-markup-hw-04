@@ -322,6 +322,18 @@ body {
 
 /*==== Конец "Наша команда" ====*/
 
+/*==== "Постоянные клиенты" =====*/
+
+.client-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
 /*==== "Подвал" ====*/
 
 .footer-address {
@@ -371,8 +383,7 @@ body {
 .footer-mail {
   margin-bottom: 9px;
 }
-/*==== Конец
- "Подвал" ====*/
+/*==== Конец "Подвал" ====*/
 
 /*==== Страница "Портфолио" ====*/
 
@@ -520,4 +531,17 @@ body {
 
 .social-list-link:hover .social-list-link:focus {
   background-color: var(--accent-color-blue);
+}
+
+.client-list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-list-item {
+  border: 1px;
+  color: #afb1b8;
+  max-width: 170px;
+  height: 90px;
 }
