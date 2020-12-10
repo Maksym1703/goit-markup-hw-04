@@ -6,9 +6,9 @@
   --hero-color: #ffffff;
   --accent-color-blue: #2196f3;
 }
-/** {
+* {
   outline: 1px solid orange;
-}*/
+}
 
 h1,
 h2,
@@ -204,7 +204,6 @@ body {
   margin: auto;
   padding-top: 200px;
 }
-
 /*==== Конец "Герой" ====*/
 
 /*==== "Особенности" ====*/
@@ -393,10 +392,13 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   width: 1600px;
+  height: 192px;
 }
 
 .footer .logo-text {
   margin-bottom: 20px;
+  width: 145px;
+  height: 31px;
 }
 
 .footer-address {
@@ -407,9 +409,34 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-social {
-  display: inline-flex;
-  vertical-align: baseline;
+.social-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--hero-color);
+}
+
+.footer .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.block1 {
+  width: 231px;
+  height: 80px;
+  float: left;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.block2 {
+  width: 206px;
+  height: 80px;
+  float: left;
+  justify-content: space-between;
 }
 /*==== Конец "Подвал" ====*/
 
@@ -511,8 +538,6 @@ body {
 }
 
 .special-list-icon {
-  width: 70px;
-  height: 70px;
   display: block;
   margin: 25px 100px;
   background-color: #f5f4fa;
@@ -520,12 +545,16 @@ body {
   border-radius: 4px;
 }
 
+.special-list-icon {
+  background-color: tomato;
+}
+
 .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/bg.jpg);
+    url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -542,10 +571,11 @@ body {
 
 .social-list {
   display: flex;
-  justify-content: center;
 }
 
 .social-list-icon {
+  width: 20px;
+  height: 20px;
   fill: #afb1b8;
 }
 
