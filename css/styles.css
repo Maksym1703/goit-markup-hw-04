@@ -102,10 +102,7 @@ body {
 }
 
 .header .address {
-  margin: auto;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  margin-left: auto;
 }
 
 .address-mail {
@@ -376,13 +373,12 @@ body {
   margin-right: 10px;
 }
 /*==== "Подвал" ====*/
-.footer .container {
-  display: flex;
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.footer {
+    background-color: #2f303a;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-
 .footer-address {
   color: var(--hero-color);
   font-weight: normal;
@@ -447,13 +443,6 @@ body {
   float: left;
   justify-content: space-between;
   margin-right: 70px;
-}
-
-.block2 {
-  width: 206px;
-  height: 80px;
-  float: left;
-  justify-content: space-between;
 }
 /*==== Конец "Подвал" ====*/
 
