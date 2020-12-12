@@ -440,9 +440,12 @@ body {
 
 .block1 {
   width: 231px;
-  float: left;
   justify-content: space-between;
   margin-right: 70px;
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
 }
 /*==== Конец "Подвал" ====*/
 
